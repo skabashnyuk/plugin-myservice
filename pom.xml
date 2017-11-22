@@ -40,7 +40,13 @@
             </dependency>
             <dependency>
                 <groupId>archetype.it</groupId>
-                <artifactId>assembly-wsmaster-war</artifactId>
+                <artifactId>assembly-wsagent-server</artifactId>
+                <version>${project.version}</version>
+                <type>tar.gz</type>
+            </dependency>
+            <dependency>
+                <groupId>archetype.it</groupId>
+                <artifactId>assembly-wsagent-war</artifactId>
                 <version>${project.version}</version>
                 <type>war</type>
             </dependency>
